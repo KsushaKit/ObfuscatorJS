@@ -52,7 +52,6 @@ export const changeCode = (code) => {
     }
 
     // проход по строке с переменными
-    // тонкий лед, если не будет ";" все полетит
 
     function allVariablesInString(i, string) {
         let j = i;
